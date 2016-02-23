@@ -1,0 +1,590 @@
+/*
+Theme Name:     Early Thinking
+Theme URI:      
+Description:    Child theme of Twenty Twelve for The Early Thinking
+Author:         Kirsten Lambertsen
+Author URI:     http://kirstenlambertsen.com
+Template:       twentytwelve                             
+Version:        0.1.0
+*/
+@import url("../twentytwelve/style.css");
+
+body .site {
+max-width: 899px;
+margin-top: 0;
+margin-bottom: 0;
+box-shadow: none;
+font-size: 15px;
+font-size: 1.05rem;
+font-family: 'Lora', serif;
+}
+
+
+.site-content {
+display:inline-block;
+width: 100%;
+float: none;
+background-color: white;
+}
+
+nav {
+text-align:center;
+}
+
+hgroup {
+width: 100%;
+display: block;
+float: none;
+padding: 23px 0px;
+background-color: #183E40;
+text-align:center;
+vertical-align:middle;
+margin-bottom: 30px;
+}
+
+hgroup h1 {
+display: block;
+float: none;
+margin-top: -2px;
+}
+
+hgroup img {
+width: 35px;
+margin-top: -8px;
+margin-bottom: -10px;
+margin-right: 5px;
+float: none;
+}
+
+hgroup:hover {
+background-color: #576667;
+}
+
+hgroup h1 a {
+color: #ffffff;
+text-decoration:none;
+font-weight: lighter;
+font-size: 28px;
+font-family: 'Oswald', sans-serif;
+}
+
+hgroup h1 a:hover {
+color: #ffffff;
+}
+
+.site-description {
+display: none;
+}
+
+.main-navigation ul.nav-menu,
+.main-navigation div.nav-menu > ul {
+	display: none !important;
+}
+.main-navigation ul.nav-menu.toggled-on,
+.menu-toggle {
+	display: inline-block !important;
+}
+
+.main-navigation ul.nav-menu.toggled-on, .main-navigation div.nav-menu.toggled-on > ul {
+border-bottom: 0;
+border-top:0;
+display: inline-block !important;
+text-align: left;
+width: auto;
+margin-top: 15px;
+}
+
+.widget-area {
+float: none;
+width: 105%;
+display: block;
+background-color: #E6E6E6;
+padding: 15px;
+margin-left: -25px;
+}
+
+.widget-area a {
+text-decoration: none;
+}
+
+.widget-area .widget {
+margin-left: 55px;
+margin-right: 15px;
+}
+
+.widget-area .widget h3 {
+font-size: 14px;
+margin-bottom: 15px;
+}
+
+.widget-area .widget a {
+color: #757575;
+text-decoration: none;
+}
+
+.widget-area .widget a:visited {
+color: #757575;
+}
+
+.textwidget {
+padding-bottom: 35px;
+border-bottom: 1px solid #D3D3D3;
+max-width: 500px;
+padding-left: 0px;
+
+}
+
+.textwidget img {
+border-radius: 4px;
+float: right;
+margin: 5px 0 5px 8px;
+}
+
+.socMedIcons {
+float: left;
+margin-top: 55px;
+margin-bottom: 55px;
+width: 100%;
+text-align: left;
+border-bottom: 1px solid #D3D3D3;
+padding-bottom: 25px;
+}
+
+.socMedIcons img {
+float: left;
+margin-right: 5px;
+box-shadow: none;
+}
+
+#subscribe-email {
+display: inline;
+}
+
+#subscribe-email input {
+font-size: 12px;
+padding: 10px 2px;
+border-radius: 0px;
+width: 70%;
+vertical-align: bottom;
+}
+
+#subscribe-submit input[type="submit"] {
+background: url(http://kirstenlambertsen.com/EarlyThinking/wp-content/uploads/2014/03/check.png) center no-repeat #4B505A;
+width: 40px;
+height: 40px;
+background-size: 20px 20px;
+color: rgba(0,0,0,0);
+}
+
+#subscribe-submit {
+display: inline;
+margin-left: 3%;
+}
+
+.widget_recent_entries li {
+padding: 15px 0 15px 0;
+border-bottom: 1px solid lightgray;
+}
+
+.widget_recent_entries li:hover {
+background-color: #FFF;
+}
+
+#recentcomments li {
+padding: 15px 0 15px 0;
+border-bottom: 1px solid lightgray;
+}
+
+#recentcomments li:hover {
+background-color: #ffffff;
+}
+
+#recentcomments li a {
+font-size: 15px;
+font-style: italic;
+font-family: serif;
+}
+
+#recentcomments li a:hover {
+font-weight: normal;
+color: #757575;
+}
+
+.widget-area .widget .cat-item {
+padding: 15px 0 15px 0;
+border-bottom: 1px solid lightgray;
+}
+
+.widget-area .widget .cat-item:hover {
+background-color: #FFF;
+}
+
+.widget-area .widget .cat-item a:hover {
+font-weight: normal;
+color: #757575;
+}
+
+.timeline {
+border-radius: 2px;
+}
+
+.entry-header {
+background-color:#ffffff;
+}
+
+.entry-header .entry-title {
+font-size: 28px;
+font-size: 1.95rem;
+text-align:center;
+margin: 15px 0px;
+line-height:1.5;
+}
+
+.entry-header .entry-title a {
+color: #576667;
+font-family: "Oswald", sans-serif;
+}
+
+.entry-title a:hover {
+color: #183E40;
+}
+
+.entryMeta {
+text-align: center;
+line-height: 1.5;
+}
+
+.entryMeta a {
+text-decoration: none;
+color: #636363;
+font-size: 12px;
+font-style: italic;
+}
+
+.leave-reply {
+display: none;
+}
+
+.entry-content p {
+display: inline-block;
+width: 100%;
+}
+
+img.alignright, img.alignleft {
+float: none;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+.page-header {
+background-color:#FFF;
+}
+.archive-header {
+background-color: #FFF;
+}
+
+
+/*end default styles*/
+@media screen and (min-width: 944px) {
+	
+	header {
+	width: 100%;
+	display: inline-block;
+	background-color: #576667;
+	}
+	
+	.menu-toggle {
+	display: none;
+	}
+	
+	.topNavWrapper {
+	max-width: 1180px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+	hgroup {
+	width: 20%;
+	display: inline-block;
+	float: left;
+	padding: 23px 35px;
+	background-color: #183E40;
+	text-align:center;
+	vertical-align:middle;
+	margin-bottom: 0px;
+	}
+	
+	hgroup img {
+	width: 35px;
+	margin-top: -4px;
+	margin-bottom: -10px;
+	margin-right: -25px;
+	float: left;
+	}
+	
+	hgroup:hover {
+	background-color: #576667;
+	}
+	
+	hgroup h1 a {
+	color: #ffffff;
+	text-decoration:none;
+	font-weight: lighter;
+	font-size: 22px;
+	font-family: 'Oswald', sans-serif;
+	}
+	
+	hgroup h1 a:hover {
+	color: #ffffff;
+	}
+	
+	.menu-menu-1-container {
+	width: 65%;
+	display: inline-block;
+	float: left;
+	}
+	
+	.main-navigation {
+	margin-top: 0; 
+	margin-top: 0;
+	}
+	
+	.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+	display: inline-block !important;
+	border-top: none;
+	border-bottom: none;
+	}
+	
+	.main-navigation ul.nav-menu.toggled-on,
+	.menu-toggle {
+		display: none !important;
+	}
+	
+	.nav-menu li {
+	display: inline-block;
+	padding: 25px 35px;
+	border-left: 1px solid #B7ADAD;
+	margin-right: -4px;
+	font-family:'Oswald', sans-serif;
+	}
+	
+	.nav-menu li:hover {
+	background-color:#183E40;
+	}
+	
+	.nav-menu li a {
+	color:#ffffff;
+	text-decoration: none;
+	font-weight: lighter;
+	line-height: 1;
+	}
+	
+	.nav-menu li a:hover {
+	color: #fff;
+	}
+	
+	.main-navigation .current-menu-item > a {
+	color: #fff;
+	}
+	
+	.current-menu-item {
+	background-color: #183E40
+	}
+	
+	.nav-menu li:nth-last-child(1) {
+	border-right: 1px solid #B7ADAD;
+	}
+	
+	body .site {
+	margin-top: -1px;
+	padding: 0 0px 0 76px;
+	}
+	
+	.site-content {
+	padding-top: 80px;
+	margin: 0;
+	padding-right: 60px;
+	min-height: 2600px;
+	}
+	
+	.site-content article {
+	margin-right: 75px;
+	}
+	
+	.entry-header {
+	margin-bottom:4px;
+	margin-bottom:.25rem;
+	}
+	
+	.entry-header .entry-title {
+	font-size:32px;
+	font-size:2.25rem;
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+	}
+	
+	.entryMeta {
+	text-align:left;
+	}
+	
+	.entry-content {
+	border-top: 1px solid lightgray;
+	padding-top: 20px;
+	}
+	
+	#main {
+	background-color: #E6E6E6;
+	}
+	
+	.widget-area {
+	float: right;
+	width: 26.3%;
+	padding: 100px 15px;
+	background-color: #E6E6E6;
+	margin: 0;
+	}
+	
+	.widget-area .widget {
+	margin-left: 55px;
+	margin-right: 15px;
+	}
+	
+	.widget-area .widget h3 {
+	font-size: 14px;
+	margin-bottom: 15px;
+	font-family: 'Oswald', sans-serif;
+	}
+	
+	.widget-area .widget a {
+	color: #757575;
+	text-decoration: none;
+	}
+	
+	.widget-area .widget a:visited {
+	color: #757575;
+	}
+	
+	.textwidget {
+	padding-bottom: 15px;
+	border-bottom: 1px solid lightgray;
+	}
+	
+	.textwidget img {
+	border-radius: 4px;
+	float: right;
+	margin: 5px 0 5px 5px;
+	}
+	
+	.socMedIcons {
+	float: left;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 100%;
+	text-align: left;
+	padding-bottom: 30px;
+	padding-top: 25px;
+	}
+	
+	.socMedIcons img {
+	float: left;
+	margin-right: 5px;
+	box-shadow: none;
+	}
+	
+	.widget_recent_entries li {
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid lightgray;
+	}
+	
+	.widget_recent_entries li:hover {
+	background-color: #FFF;
+	}
+	
+	#recentcomments li {
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid lightgray;
+	}
+	
+	#recentcomments li:hover {
+	background-color: #ffffff;
+	}
+	
+	#recentcomments li a {
+	font-size: 15px;
+	font-style: italic;
+	font-family: serif;
+	}
+	
+	#recentcomments li a:hover {
+	font-weight: normal;
+	color: #757575;
+	}
+	
+	.widget-area .widget .cat-item {
+	padding: 15px 0 15px 0;
+	border-bottom: 1px solid lightgray;
+	}
+	
+	.widget-area .widget .cat-item:hover {
+	background-color: #FFF;
+	}
+	
+	.widget-area .widget .cat-item a:hover {
+	font-weight: normal;
+	color: #757575;
+	}
+}	
+
+@media screen and (min-width: 945px) and (max-width: 1137px){
+	body .site {
+	padding: 0 0 0 0;
+	}
+	
+	.site-content {
+	padding-right: 30px;
+	padding-left: 30px;
+	}
+	
+	.widget-area {
+	float: left;
+	padding: 100px 0 0 0;
+	}
+	
+}
+
+@media screen and (min-width: 945px){
+
+	body .site {
+	max-width: 1100px;
+	max-width: 78.6rem;
+	}
+	
+	.site-content {
+		display: inline;
+		float: left;
+		width: 65.104166667%;
+	}
+	
+	.hgroup {
+	margin-bottom: 0px;
+	}
+	
+	.menu-menu-1-container {
+	width: 70%;
+	text-align:left;
+	}
+	
+	.entry-content p {
+	display: block;
+	}
+	
+	img.alignright {
+	float: right;
+	margin: 12px 0 12px 24px;
+	margin: 0.857142857rem 0 0.857142857rem 1.714285714rem;
+	display: inline;
+	}
+}
+	
